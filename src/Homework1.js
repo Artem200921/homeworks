@@ -48,11 +48,15 @@ function App() {
       </a>
 
       {/* Sixth point */}
+      <a href={object.url} target="_blank" rel="noopener noreferrer">
+        {object.name}
+      </a>
+
+      {/* Seventh point */}
       <p>
         {num1} + {num2} = {num1 + num2}
       </p>
-
-      {/* Seventh point */}
+      {/* Eighth point */}
       <ul>
         {myArray.map((color, index) => (
           <li key={index}>{color}</li>
