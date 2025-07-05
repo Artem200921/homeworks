@@ -9,9 +9,9 @@ import reportWebVitals from './reportWebVitals';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    {/* <App /> */}
-    {/* <App2 /> */}
-    <App3 />
+    <Homework1 />
+    {/* <Homework2 /> */}
+    {/* <Homework3 /> */}
   </React.StrictMode>
 );
 
