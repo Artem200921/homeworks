@@ -5,7 +5,7 @@ const text = "Привіт";
 
 function App2() {
   return (
-    <div className="App">
+    <div className="App2">
       <Greeting name={name} />
       <Message text={text} />
       <button onClick={() => console.log("Бу!")}>Натисни на мене</button>
